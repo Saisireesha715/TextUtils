@@ -1,0 +1,42 @@
+
+
+
+body {
+  transition: background-color 0.5s ease;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+textarea.form-control {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+button.btn {
+  margin-right: 10px;
+}
+
+.container h1 {
+  margin-bottom: 20px;
+}
+
+.container h3 {
+  margin-top: 30px;
+}
+
+.alert {
+  margin-top: 10px;
+}
+
+.accordion-button {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--bs-primary);
+  background-color: rgba(0, 0, 0, 0.125);
+}
+
